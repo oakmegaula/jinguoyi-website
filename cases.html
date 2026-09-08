@@ -75,60 +75,60 @@
 
   <section id="contact" class="section">
     <div class="container">
+      <form class="contact-form">
       <div class="contact-section">
         <div class="contact-left">
           <h2>免費品牌健檢</h2>
           <p class="placeholder-copy">〔請填入品牌健檢服務說明文案，例如可協助診斷的面向與預期效益〕</p>
           <div class="check-grid">
-            <label><input type="checkbox"> 行銷企劃</label>
-            <label><input type="checkbox"> 異業合作</label>
-            <label><input type="checkbox"> 廣告投放</label>
-            <label><input type="checkbox"> 社群經營</label>
-            <label><input type="checkbox"> 網站規劃</label>
-            <label><input type="checkbox"> SEO 優化</label>
-            <label><input type="checkbox"> 視覺設計</label>
-            <label><input type="checkbox"> 品牌策略</label>
-            <label><input type="checkbox"> 廣告顧問</label>
-            <label><input type="checkbox"> 其他需求</label>
+            <label><input type="checkbox" name="interests" value="行銷企劃"> 行銷企劃</label>
+            <label><input type="checkbox" name="interests" value="異業合作"> 異業合作</label>
+            <label><input type="checkbox" name="interests" value="廣告投放"> 廣告投放</label>
+            <label><input type="checkbox" name="interests" value="社群經營"> 社群經營</label>
+            <label><input type="checkbox" name="interests" value="網站規劃"> 網站規劃</label>
+            <label><input type="checkbox" name="interests" value="SEO 優化"> SEO 優化</label>
+            <label><input type="checkbox" name="interests" value="視覺設計"> 視覺設計</label>
+            <label><input type="checkbox" name="interests" value="品牌策略"> 品牌策略</label>
+            <label><input type="checkbox" name="interests" value="廣告顧問"> 廣告顧問</label>
+            <label><input type="checkbox" name="interests" value="其他需求"> 其他需求</label>
           </div>
         </div>
         <div class="contact-right">
-          <form class="contact-form">
             <div class="form-grid">
               <div class="full">
                 <label>姓名稱呼</label>
-                <input type="text" placeholder="請輸入您的稱呼">
+                <input type="text" name="name" placeholder="請輸入您的稱呼">
               </div>
               <div class="full">
                 <label>您的品牌服務類型</label>
-                <input type="text" placeholder="例如：電商、餐飲、美業⋯">
+                <input type="text" name="bizType" placeholder="例如：電商、餐飲、美業⋯">
               </div>
               <div class="full">
                 <label>您的粉絲專頁連結</label>
-                <input type="text" placeholder="請貼上 Facebook / Instagram 連結">
+                <input type="text" name="fbLink" placeholder="請貼上 Facebook / Instagram 連結">
               </div>
               <div>
                 <label>粉專是否有購買過假粉？</label>
                 <div class="radio-row">
-                  <label><input type="radio" name="fakefans"> 是</label>
-                  <label><input type="radio" name="fakefans"> 否</label>
+                  <label><input type="radio" name="fakeFans" value="是"> 是</label>
+                  <label><input type="radio" name="fakeFans" value="否"> 否</label>
                 </div>
               </div>
               <div>
                 <label>每個月廣告行銷預算為何？</label>
-                <input type="text" placeholder="請輸入預算範圍">
+                <input type="text" name="budget" placeholder="請輸入預算範圍">
               </div>
               <div class="full">
                 <label>聯絡方式</label>
-                <input type="text" placeholder="電話或 Email">
+                <input type="text" name="contact" placeholder="電話或 Email">
               </div>
             </div>
             <button type="submit" class="btn btn--primary btn--block" style="margin-top:22px;">確定送出</button>
             <p class="form-note">送出即代表您同意我們透過您留下的聯絡方式與您聯繫，我們將於 1-2 個工作天內回覆。</p>
             <p class="form-success">感謝您的填寫，我們將盡快與您聯繫！</p>
-          </form>
         </div>
       </div>
+      </form>
     </div>
   </section>
 
